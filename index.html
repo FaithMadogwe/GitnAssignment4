@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML TABLES</title>
+    <style>
+        table {
+           width: 100%; 
+          border-collapse: collapse;
+        }
+        th, td {
+         border: 1px solid black; 
+         padding: 1opx;
+          text-align: left;
+        }
+        th {
+          background-color: aqua; 
+           color: white;
+        }
+        tr :nth-child(even) {
+          background-color: bisque;  
+        }
+        tr :hover {
+            background-color: aquamarine;
+        }
+       td :nth-child(1) {
+        background-color: blanchedalmond;
+        font-weight: bold;
+       }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+          <th>Product Name</th>  
+          <th>Features</th> 
+          <th>Price</th> 
+          <th>Ratings</th> 
+          <th>Availability</th> 
+        </tr>
+        <tr>
+           <td>Chairs</td> 
+           <td>Foldable</td> 
+           <td>#1m</td>
+           <td>Very good</td>
+           <td>Available</td> 
+        </tr>
+        <tr>
+         <td>Television</td> 
+         <td>Smart TV</td>
+         <td>#2m</td>
+         <td>Very good</td>
+         <td>Available</td>
+        </tr>
+        <tr>
+            <td>Fridge</td> 
+            <td>Convertable</td>
+            <td>#5m</td>
+            <td>Very good</td>
+            <td>Available</td>
+           </tr>
+           <tr>
+            <td>Table</td> 
+            <td>Multipurpose</td>
+            <td>#2m</td>
+            <td>Very good</td>
+            <td>Available</td>
+           </tr>
+    </table>
+</body>
+</html>
